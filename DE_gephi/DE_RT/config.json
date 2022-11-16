@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "JK"
+  },
+  "text": {
+    "more": "This graph presents the network of FB groups\u0026pages sharing RT_DE domains. The size of the node depends on the number of different RT domains shared by the group or page.",
+    "intro": "This graph presents the network of FB groups\u0026pages sharing RT_DE domains",
+    "title": "Network of disinfo FB groups\u0026pages sharing RT_DE domains"
+  },
+  "legend": {
+    "edgeLabel": "if the domain was shared",
+    "colorLabel": "modularity",
+    "nodeLabel": "groups\u0026pages | domains (red)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
